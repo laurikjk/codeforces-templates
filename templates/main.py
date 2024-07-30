@@ -16,9 +16,13 @@ def readintlist():
 def readstringlist():
     return(input().split())
 
+def solve():
+    pass
 
 def main():
-    pass
+    t = readint()
+    for _ in range(t):
+        solve()
 
 if __name__ == '__main__':
     main()
